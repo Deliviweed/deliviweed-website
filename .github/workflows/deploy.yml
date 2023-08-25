@@ -1,24 +1,35 @@
-name: Build and Deploy
+name: CI/CD
+
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout
+    - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install and Build
-      run: |
-        npm install
-        npm run build
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.0
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: main
-        FOLDER: build
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build
+
+    - name: Deploy to main branch
+      run: |
+        rm -rf src/ public/ .gitignore package.json package-lock.json README.md .github/
+        mv build/* . && rmdir build
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "Build & Deploy"
+        git push

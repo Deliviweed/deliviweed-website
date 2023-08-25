@@ -31,8 +31,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git commit -m "Prepare for Build & Deploy" || echo "No changes to prepare"
+        git commit -m "Prepare for Build & Deploy" || echo "No changes to commit"
         git pull --rebase
-        git commit -m "Build & Deploy" || echo "No changes to commit"
         git push https://x-access-token:${{ secrets.ZATAARA_REPO_TOKEN }}@github.com/Deliviweed/deliviweed-website.git
     

@@ -34,5 +34,5 @@ jobs:
         git commit -m "Prepare for Build & Deploy" || echo "No changes to prepare"
         git pull --rebase
         git commit -m "Build & Deploy" || echo "No changes to commit"
-        git push https://x-access-token:${{ secrets.zataara_WEBSITE_DEPLOY }}@github.com/Deliviweed/deliviweed-website.git
+        git push https://x-access-token:${{ secrets.ZATAARA_WEBSITE_DEPLOY }}@github.com/Deliviweed/deliviweed-website.git
     

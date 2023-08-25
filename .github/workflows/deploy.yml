@@ -34,4 +34,3 @@ jobs:
         git commit -m "Prepare for Build & Deploy" || echo "No changes to commit"
         git pull --rebase
         git push https://x-access-token:${{ secrets.ZATAARA_REPO_TOKEN }}@github.com/Deliviweed/deliviweed-website.git
-    

@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy to main branch
       run: |
-        rm -rf src/ public/ .gitignore package.json package-lock.json README.md .github/
+        rm -rf src/ public/ .gitignore package.json package-lock.json README.md .github/ node_modules/
         mv build/* . && rmdir build
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -35,3 +35,4 @@ jobs:
         git pull --rebase
         git commit -m "Build & Deploy" || echo "No changes to commit"
         git push
+    

@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
@@ -7,7 +6,7 @@ module.exports = {
       black: "#000000",
       white: "#ffffff",
       "back-light": "var(--back-light)",
-      "back-dark": "var(--back-dark)",
+      "back-dark": "#46515e",
       "card-light": "var(--card-light)",
       "card-dark": "var(--card-dark)",
       "hover-back-light": "var(--hover-back-light)",
@@ -315,7 +314,8 @@ module.exports = {
       },
     },
     screens: {
-      xs: "400px",
+      xxs: "400px",
+      xs: "440px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -325,7 +325,7 @@ module.exports = {
   },
   plugins: [
     require("daisyui"),
-    require("prettier-plugin-tailwindcss"),
+    // require("prettier-plugin-tailwindcss"),
     require("@tailwindcss/container-queries"),
   ],
   daisyui: {

@@ -52,7 +52,7 @@ const Hero = () => {
           </motion.div>
           <motion.div  variants={lottieFromLeft}
             initial="initial"
-            animate="animate" className="absolute w-9/12 bottom-12">
+            animate="animate" className="absolute w-11/12 xs:w-9/12 sm:w-96 bottom-12 xs:bottom-18 sm:bottom-20">
             <LottieComponent />
           </motion.div>
         </header>

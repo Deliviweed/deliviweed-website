@@ -1,6 +1,6 @@
 {
   "name": "deliviweed-website",
-  "homepage": "https://deliviweed.com",
+  "homepage": "deliviweed.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

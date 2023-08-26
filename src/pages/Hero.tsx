@@ -43,17 +43,17 @@ const Hero = () => {
       >
         <header className="flex flex-col columns-1 justify-center items-center h-full">
           <motion.div
-            className="mb-80"
+            className="mb-80 relative"
             variants={fadeIn}
             initial="initial"
             animate="animate"
           >
             <HookText />
-          </motion.div>
           <motion.div  variants={lottieFromLeft}
             initial="initial"
-            animate="animate" className="absolute w-11/12 xs:w-9/12 sm:w-96 bottom-6 xs:bottom-8 sm:bottom-12">
+            animate="animate" className="absolute w-11/12 xs:w-9/12 sm:w-96 ">
             <LottieComponent />
+          </motion.div>
           </motion.div>
         </header>
       </div>

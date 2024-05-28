@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../images/Logo";
+import Logo from "../images/Logo1";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,

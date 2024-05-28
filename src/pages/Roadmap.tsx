@@ -40,7 +40,7 @@ const Roadmap = () => {
               <div
                 className={`w-12 h-12 mb-2 rounded-full flex items-center justify-center text-sm ${
                   index <= currentStep
-                    ? "bg-gradient-to-r from-[#01ff8f] to-[#00a1fe] shadow-md"
+                    ? "bg-gradient-to-r from-[#EB4237] to-[#FAB048] shadow-md"
                     : "bg-gray-900"
                 }`}
               >

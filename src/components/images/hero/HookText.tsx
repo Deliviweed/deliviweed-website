@@ -25,7 +25,7 @@ const HookText = ({ props }: HookTextProps) => {
           </span>
         </h1>
         <p className="text-xl sm:text-2xl text-center text-neutral-400">
-          Secure Drone Delivery as a Service with assured identity verification.
+          Secure Drone Delivery as a Service with assured identity verification
         </p>
       </div>
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-import DroneCannabis from "../assets/CloudCannabis.jpg";
+import DroneCannabis from "../assets/FullLogo.png";
 const About = () => {
   return (
     <section
@@ -8,11 +8,11 @@ const About = () => {
     >
       <div className="container mx-auto px-4 md:px-0 flex flex-col columns-1 items-center justify-center">
         <div className="card w-96 bg-base-100 shadow-xl ">
-          <figure className="px-10 pt-10">
+          <figure className="px-10 pt-10 mb-4">
             <img
               src={DroneCannabis}
               alt="Drone delivering cannabis"
-              className="w-72 h-auto shadow-xl z-0 rounded-xl"
+              className="w-72 h-auto z-0 "
             />
           </figure>
           <div className=" py-4 text-zinc-300 w-full card-body px-6 pb-6">

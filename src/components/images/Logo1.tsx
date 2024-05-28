@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/DeliviweedLogo.png";
+import logo from "../../assets/Logo2.png";
 
 interface LogoProps {
   width?: number;

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed263a2f.css",
-    "main.js": "/static/js/main.5c08d42c.js",
+    "main.css": "/static/css/main.072f0f99.css",
+    "main.js": "/static/js/main.6a7d6a33.js",
     "static/js/787.e5b9050b.chunk.js": "/static/js/787.e5b9050b.chunk.js",
-    "static/media/DeliviweedLogo.png": "/static/media/DeliviweedLogo.7b9f3bcf14a0669a25d4.png",
-    "static/media/CloudCannabis.jpg": "/static/media/CloudCannabis.f50920d7ffa1259c3031.jpg",
+    "static/media/FullLogo.png": "/static/media/FullLogo.c91bb8fda5dfd2bc6ed5.png",
     "static/media/hero1_background.jpeg": "/static/media/hero1_background.78957a673722d5576d2c.jpeg",
+    "static/media/Logo2.png": "/static/media/Logo2.375a6d9da2351f10daf6.png",
     "index.html": "/index.html",
-    "main.ed263a2f.css.map": "/static/css/main.ed263a2f.css.map",
-    "main.5c08d42c.js.map": "/static/js/main.5c08d42c.js.map",
+    "main.072f0f99.css.map": "/static/css/main.072f0f99.css.map",
+    "main.6a7d6a33.js.map": "/static/js/main.6a7d6a33.js.map",
     "787.e5b9050b.chunk.js.map": "/static/js/787.e5b9050b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed263a2f.css",
-    "static/js/main.5c08d42c.js"
+    "static/css/main.072f0f99.css",
+    "static/js/main.6a7d6a33.js"
   ]
 }

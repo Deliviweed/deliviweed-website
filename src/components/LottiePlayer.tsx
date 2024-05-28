@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import droneAnimation from "../animations/drone_animation.json";
+import droneAnimation from "../animations/drone_animation2.json";
 
 const LottieComponent: React.FC = () => {
   const defaultOptions = {

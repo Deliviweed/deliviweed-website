@@ -19,10 +19,9 @@ const Hero = () => {
     },
   };
 
-
   const lottieFromLeft = {
     initial: {
-      x: '-100%', // Start outside the screen on the left
+      x: "-100%", // Start outside the screen on the left
       opacity: 0,
     },
     animate: {
@@ -49,11 +48,14 @@ const Hero = () => {
             animate="animate"
           >
             <HookText />
-          <motion.div  variants={lottieFromLeft}
-            initial="initial"
-            animate="animate" className="absolute w-11/12 xs:w-9/12 sm:w-96 ">
-            <LottieComponent />
-          </motion.div>
+            <motion.div
+              variants={lottieFromLeft}
+              initial="initial"
+              animate="animate"
+              className="absolute w-11/12 xs:w-9/12 sm:w-96 "
+            >
+              <LottieComponent />
+            </motion.div>
           </motion.div>
         </header>
       </div>

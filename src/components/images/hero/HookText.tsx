@@ -18,15 +18,14 @@ const HookText = ({ props }: HookTextProps) => {
               animateDirection="horizontal"
               animateDuration={3}
               angle={90}
-              colors={["#01ff8f", "#00a1fe"]}
+              colors={["#EB4237", "#FAB048"]}
             >
               Minutes
             </LinearTextGradient>
           </span>
         </h1>
         <p className="text-xl sm:text-2xl text-center text-neutral-400">
-          Extremely fast Cannabis drone deliveries with assured identity
-          verification
+          Secure Drone Delivery as a Service with assured identity verification.
         </p>
       </div>
     </>
